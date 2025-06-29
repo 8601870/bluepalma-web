@@ -1,0 +1,59 @@
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background: #fdfdfd;
+  color: #333;
+}
+header {
+  background: #0077b6;
+  color: white;
+  text-align: center;
+  padding: 2em;
+}
+.logo {
+  max-width: 120px;
+}
+.whatsapp-button {
+  display: inline-block;
+  margin-top: 1em;
+  padding: 0.5em 1em;
+  background: #25D366;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+main {
+  padding: 2em;
+}
+.fleet {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+.car {
+  width: 250px;
+  border: 1px solid #ccc;
+  padding: 1em;
+  text-align: center;
+}
+.car img {
+  max-width: 100%;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1em;
+}
+table, th, td {
+  border: 1px solid #ccc;
+}
+th, td {
+  padding: 0.5em;
+  text-align: center;
+}
+footer {
+  text-align: center;
+  padding: 1em;
+  background: #eee;
+}
